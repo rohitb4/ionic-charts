@@ -1,4 +1,4 @@
-testimport {Page} from 'ionic-angular';
+import {Page} from 'ionic-angular';
 
 @Page({
 	templateUrl: 'build/pages/donut-chart/donut-chart.html'
@@ -43,15 +43,15 @@ export class ChartsPage {
 					{
 						"label": "Food",
 						"value": "28504"
-					}, 
+					},
 					{
 						"label": "Apparels",
 						"value": "14633"
-					}, 
+					},
 					{
 						"label": "Electronics",
 						"value": "10507"
-					}, 
+					},
 					{
 						"label": "Household",
 						"value": "4910"
